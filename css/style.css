@@ -143,22 +143,22 @@ body {
   color: #57A4A4;
 }
 
-.nav__button.active + .nav__menu {
+.nav.active > .nav__menu {
   right: 0;
   opacity: 1;
 }
 
-.nav__button.active > .nav__button--lines:nth-child(1) {
+.nav.active .nav__button--lines:nth-child(1) {
   -webkit-transform: rotateZ(40deg);
       -ms-transform: rotate(40deg);
           transform: rotateZ(40deg);
 }
 
-.nav__button.active > .nav__button--lines:nth-child(2) {
+.nav.active .nav__button--lines:nth-child(2) {
   opacity: 0;
 }
 
-.nav__button.active > .nav__button--lines:nth-child(3) {
+.nav.active .nav__button--lines:nth-child(3) {
   -webkit-transform: rotateZ(-40deg);
       -ms-transform: rotate(-40deg);
           transform: rotateZ(-40deg);
