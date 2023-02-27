@@ -1,0 +1,13 @@
+@mixin flex-wrap {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+}
+@mixin footer-text{
+   font-size: 12px;
+   line-height: 20px;
+   color: $grey;
+   text-align: center;
+   margin-top: 8px;
+   margin-bottom: 26px;
+}
